@@ -1,0 +1,7 @@
+applications:
+- name: springboothana2
+  path: ./target/springboothana2-0.0.1-SNAPSHOT.jar
+  buildpack: java_buildpack
+  memory: 1024M
+  services:
+    - springdb
